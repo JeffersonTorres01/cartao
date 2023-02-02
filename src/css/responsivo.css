@@ -1,0 +1,40 @@
+@media (max-width: 1440px) {
+    body {
+        background-color: #d3d3d3;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    .cote {
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 20px;
+    }
+
+    .quadrado-1 {
+padding-top: 10px;
+        max-width: 400px;
+
+    }
+
+    .quadrado-2 {
+        max-width: 400px;
+
+    }
+
+    .quadrado-3 {
+        max-width: 400px;
+    }
+}
+
+@media (max-width:500px) {
+
+    .cote {
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+    }
+}
